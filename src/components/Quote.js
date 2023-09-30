@@ -17,9 +17,9 @@ export default function QuoteBox() {
       <div id="quote-box">
         <div id="quote-content">
           <FaQuoteLeft size="30" style={{ marginRight: "10px" }}></FaQuoteLeft>
-          <h2 id="text"></h2>
+          <h2 id="text">quote</h2>
           <FaQuoteRight size="30" style={{ marginLeft: "10px" }}></FaQuoteRight>
-          <h4 id="author"></h4>
+          <h4 id="author">author</h4>
         </div>
         <div className="buttons">
           <a
